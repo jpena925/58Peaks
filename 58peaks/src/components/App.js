@@ -1,10 +1,12 @@
-import React from "react";
-import { Route, Switch } from "react-router-dom";
-import Header from "./Header";
-import PeakList from "./PeakList";
-import MyPeakList from "./MyPeakList";
-import Planning from "./Planning";
-import Home from "./Home";
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import Header from './Header'
+import PeakList from './PeakList'
+import MyPeakList from './MyPeakList'
+import Planning from './Planning'
+import Home from './Home'
+import './App.css'
+
 
 function App() {
 	return (
