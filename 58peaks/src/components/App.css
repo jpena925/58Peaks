@@ -5,7 +5,7 @@ html {
 /*home page css*/
 
 body {
-    height: 110vh;
+    height: 100%;
     border: 0px;
     font-family: 'Playfair Display', serif;
     font-weight: 300;
@@ -97,3 +97,42 @@ td {
     font-size: 1.6rem;
 }
 
+/*Planning*/
+#planning-container{
+    position: absolute;
+}
+
+#formtitle {
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 10px
+}
+
+#packing-input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: auto;
+}
+
+#packing-list{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+    list-style-type: none;
+}
+
+.packing-item{
+    margin: 10px;
+}
+
+.packing-check {
+    display: flex;
+    float: right;
+}
