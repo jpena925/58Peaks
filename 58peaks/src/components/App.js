@@ -7,27 +7,27 @@ import Planning from './Planning'
 import Home from './Home'
 import './App.css'
 
-function App() {
 
-  return (
-    <div>
-      <Header />
-      <Switch>
-        <Route path="/peaklist">
-          <PeakList />
-        </Route>
-        <Route path="/mypeaks">
-          <MyPeakList />
-        </Route>
-        <Route path="/planmyhike">
-          <Planning />
-        </Route>
-        <Route exact path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </div>
-  );
+function App() {
+	return (
+		<div>
+			<Header />
+			<Switch>
+				<Route path="/peaklist">
+					<PeakList />
+				</Route>
+				<Route path="/mypeaks">
+					<MyPeakList />
+				</Route>
+				<Route path="/planmyhike">
+					<Planning />
+				</Route>
+				<Route exact path="/">
+					<Home />
+				</Route>
+			</Switch>
+		</div>
+	);
 }
 
 export default App;
