@@ -5,6 +5,7 @@ import PeakList from './PeakList'
 import MyPeakList from './MyPeakList'
 import Planning from './Planning'
 import Home from './Home'
+import './App.css'
 
 function App() {
 
