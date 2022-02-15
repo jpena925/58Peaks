@@ -1,8 +1,15 @@
 import React from 'react'
 
-function PackingList() {
+function PackingList({ packingList }) {
+
+  const listItems = packingList.map(item => <li>{item}</li>)
+
   return (
-    <div>PackingList</div>
+    <div>
+      <ul>
+        {listItems}
+      </ul>
+    </div>
   )
 }
 
