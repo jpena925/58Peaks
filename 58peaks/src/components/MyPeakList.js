@@ -54,6 +54,7 @@ console.log(insta)
                 ))}
             </div>
         </section>
+
     </div>
   )
 }
