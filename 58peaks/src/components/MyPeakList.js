@@ -1,8 +1,11 @@
 import React from 'react'
+import Map from './Map'
 
 function MyPeakList() {
   return (
-    <div>My14erList</div>
+    <div>
+      <Map />
+    </div>
   )
 }
 

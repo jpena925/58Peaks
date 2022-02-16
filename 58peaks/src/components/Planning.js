@@ -12,7 +12,7 @@ function Planning() {
 	}
 
 	return (
-		<div>
+		<div id="planning-container">
 			<PlanningForm
 				formData={formData}
 				setFormData={setFormData}

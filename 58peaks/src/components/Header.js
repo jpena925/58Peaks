@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import image2 from '../data/pngwing.com (3).png'
+import { NavLink, Link } from "react-router-dom";
+import logo from '../data/58Peaks.svg'
 
 function Header() {
 	return (
 		<section id="header-background">
 			<div id="header">
-				<img src={image2} id="fake-logo" />
+				<Link to="/"><img src={logo} id="logo" /></Link>
 				<div>
 				<NavLink to="/peaklist">Peak List</NavLink>
 				<NavLink to="/mypeaks">My Peaks</NavLink>
