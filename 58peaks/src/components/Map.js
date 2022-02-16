@@ -7,24 +7,28 @@ class Map extends React.Component {
 		zoom: 6.75,
 	};
 
-    render () {
-	  return (
-      <div style={{ height: "50vh", width: "45%", padding: '20px', marginBottom: '100px' }}>
-			<GoogleMapReact
-				bootstrapURLKeys={{
-					key: "AIzaSyDWwr54XZtrdfedoaOMnCkh3Q1T97iib64",
-					language: "en",
-				}}
-				defaultCenter={this.props.center}
-				defaultZoom={this.props.zoom}
-        onChildMouseEnter={this.onChildMouseEnter}
-        onChildMouseLeave={this.onChildMouseLeave}
-			></GoogleMapReact>
-      <br>
-      </br>
-		</div>
-	);
- }
+	render() {
+		return (
+			<div
+				style={{
+					height: "50vh",
+					width: "45%",
+					padding: "20px",
+					marginBottom: "100px",
+				}}>
+				<GoogleMapReact
+					bootstrapURLKeys={{
+						key: "API KEY",
+						language: "en",
+					}}
+					defaultCenter={this.props.center}
+					defaultZoom={this.props.zoom}
+					onChildMouseEnter={this.onChildMouseEnter}
+					onChildMouseLeave={this.onChildMouseLeave}></GoogleMapReact>
+				<br></br>
+			</div>
+		);
+	}
 }
 
 export default Map;
