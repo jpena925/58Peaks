@@ -10,8 +10,8 @@
       "myRoute": "Northeast Ridge",
       "myComment": "I died.",
       "id": 1,
-      "latitude": 39.1178,
-      "longitude": -106.4452
+      "latitude": 39.1503,
+      "longitude": -107.0831
     },
     {
       "name": "Longs Peak",
@@ -34,8 +34,8 @@
       "myRoute": "Northeast Ridge",
       "myComment": "It's actually kinda brown.",
       "id": 3,
-      "latitude": 39.1178,
-      "longitude": -106.4452
+      "latitude": 39.0761,
+      "longitude": -106.9873
     },
     {
       "name": "Missouri Mountain",
@@ -46,8 +46,8 @@
       "myRoute": "Northwest Gully",
       "myComment": "Wrong state. Bad name 👎",
       "id": 4,
-      "latitude": 39.1178,
-      "longitude": -106.4452
+      "latitude": 38.9472,
+      "longitude": -106.3784
     }
   ]
 }
