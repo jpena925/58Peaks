@@ -1,16 +1,16 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
-import pin from "../data/pin2.png"
-import { Link } from "react-router-dom"
+import pin from "../data/pin2.png";
+import { Link } from "react-router-dom";
 
-const GMAP_API = process.env.REACT_APP_GOOGLE_API_KEY
+const GMAP_API = process.env.REACT_APP_GOOGLE_API_KEY;
 
 const pinStyle = {
 	position: "absolute",
 	top: "100%",
 	left: "50%",
-	transform: "translate(-50%, -100%)"
-  };
+	transform: "translate(-50%, -100%)",
+};
 
 class Map extends React.Component {
 	static defaultProps = {
@@ -33,17 +33,19 @@ class Map extends React.Component {
 						language: "en",
 					}}
 					defaultCenter={this.props.center}
-					defaultZoom={this.props.zoom}
-					>
-						{this.props.myPeaks.map(peak => {
-							console.log(peak.latitude, peak.longitude)
-							return (
-								<Link to={"/mypeaks"} key={peak.id} lat={peak.latitude} lng={peak.longitude}>
-									<img style={pinStyle} src={pin} alt="pin" />
-								</Link>
-							)
-						})}
-					</GoogleMapReact>
+					defaultZoom={this.props.zoom}>
+					{this.props.myPeaks.map((peak) => {
+						return (
+							<Link
+								to={"/mypeaks"}
+								key={peak.id}
+								lat={peak.latitude}
+								lng={peak.longitude}>
+								<img style={pinStyle} src={pin} alt="pin" />
+							</Link>
+						);
+					})}
+				</GoogleMapReact>
 				<br></br>
 			</div>
 		);
