@@ -100,7 +100,6 @@ td {
     font-size: 1.6rem;
 }
 
-
 /* Peak List style */
 
 .mountain-container-2 {
@@ -217,4 +216,44 @@ label {
     box-shadow: 0 0.5em 0.5em -0.4em #edf683;
     transform: translateY(-0.25em);
     color: #fff;
+}
+/*Planning*/
+#planning-container {
+    position: absolute;
+}
+
+#formtitle {
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 10px
+}
+
+#packing-input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: auto;
+}
+
+#packing-list{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+    min-height: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+    list-style-type: none;
+}
+
+.packing-item{
+    margin: 10px;
+}
+
+.packing-check {
+    display: flex;
+    float: right;
+
 }
