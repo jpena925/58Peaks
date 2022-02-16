@@ -7,7 +7,9 @@
            "class": 1,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10001.jpg",
-           "mainImage": "https://www.14ers.com/photos/mtelbert/peakphotos/medium/200506_Elbert02.jpg?lu=20210623"
+           "mainImage": "https://www.14ers.com/photos/mtelbert/peakphotos/medium/200506_Elbert02.jpg?lu=20210623",
+           "latitude": 39.1178,
+           "longitude": -106.4452
        },
        {
            "id": 2,
@@ -16,7 +18,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10002.jpg",
-           "mainImage": "https://www.14ers.com/photos/mtmassive/peakphotos/medium/201108_Massive01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/mtmassive/peakphotos/medium/201108_Massive01.jpg?lu=20210402",
+           "latitude": 39.1872,
+           "longitude": -106.4753
        },
        {
            "id": 3,
@@ -25,7 +29,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10003.jpg",
-           "mainImage": "https://www.14ers.com/photos/harvardgroup/peakphotos/medium/200606_Colu01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/harvardgroup/peakphotos/medium/200606_Colu01.jpg?lu=20210402",
+           "latitude": 38.9244,
+           "longitude": -106.3206
        },
        {
            "id": 4,
@@ -34,7 +40,9 @@
            "class": 2,
            "range": "Sangre de Cristo",
            "image": "https://www.14ers.com/images/pthumbs/10004.jpg",
-           "mainImage": "https://www.14ers.com/photos/blancagroup/peakphotos/medium/201305_Blanca01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/blancagroup/peakphotos/medium/201305_Blanca01.jpg?lu=20210402",
+           "latitude": 39.1178,
+           "longitude": -106.4452
        },
        {
            "id": 5,
@@ -43,16 +51,20 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10005.jpg",
-           "mainImage": "https://www.14ers.com/photos/laplatapeak/peakphotos/medium/201805_Lap01.jpg?lu=20210331"
+           "mainImage": "https://www.14ers.com/photos/laplatapeak/peakphotos/medium/201805_Lap01.jpg?lu=20210331",
+           "latitude": 39.0294,
+           "longitude": -106.4731
        },
        {
            "id": 6,
-           "name": "Uncompahdgre Peak",
+           "name": "Uncompahgre Peak",
            "elevation": 14309,
            "class": 2,
            "range": "San Juan Mountains",
            "image": "https://www.14ers.com/images/pthumbs/10006.jpg",
-           "mainImage": "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/medium/201710_Unco01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/uncompahgrepeak/peakphotos/medium/201710_Unco01.jpg?lu=20210402",
+           "latitude": 38.0717,
+           "longitude": -107.4620
        },
        {
            "id": 7,
@@ -61,7 +73,10 @@
            "class": 3,
            "range": "Sangre de Cristo",
            "image": "https://www.14ers.com/images/pthumbs/10007.jpg",
-           "mainImage": "https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201305_Crestones01.jpg?lu=20210623"
+           "mainImage": "https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201305_Crestones01.jpg?lu=20210623",
+           "latitude": 37.9667,
+           "longitude": -105.5853
+
        },
        {
            "id": 8,
@@ -70,25 +85,31 @@
            "class": 2,
            "range": "Mosquito Range",
            "image": "https://www.14ers.com/images/pthumbs/10008.jpg",
-           "mainImage": "https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200612_LinBro01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200612_LinBro01.jpg?lu=20210402",
+           "latitude": 39.3514,
+           "longitude": -106.1114
        },
        {
            "id": 9,
-           "name": "Grays peak",
+           "name": "Grays Peak",
            "elevation": 14270,
            "class": 1,
            "range": "Front Range",
            "image": "https://www.14ers.com/images/pthumbs/10009.jpg",
-           "mainImage": "https://www.14ers.com/photos/graystorreys/peakphotos/medium/202107_GraTor01.jpg?lu=20210702"
+           "mainImage": "https://www.14ers.com/photos/graystorreys/peakphotos/medium/202107_GraTor01.jpg?lu=20210702",
+           "latitude": 39.6336,
+           "longitude": -105.8172
        },
        {
            "id": 10,
-           "name": "Mt. Amtero",
+           "name": "Mt. Antero",
            "elevation": 14269,
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10010.jpg",
-           "mainImage": "https://www.14ers.com/photos/mtantero/peakphotos/medium/200602_Ant01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/mtantero/peakphotos/medium/200602_Ant01.jpg?lu=20210402",
+           "latitude": 38.6739,
+           "longitude": -106.2467
        },
        {
            "id": 11,
@@ -97,7 +118,9 @@
            "class": 2,
            "range": "Front Range",
            "image": "https://www.14ers.com/images/pthumbs/10011.jpg",
-           "mainImage": "https://www.14ers.com/photos/graystorreys/peakphotos/medium/202107_GraTor02.jpg?lu=20210702"
+           "mainImage": "https://www.14ers.com/photos/graystorreys/peakphotos/medium/202107_GraTor02.jpg?lu=20210702",
+           "latitude": 39.6428,
+           "longitude": -105.8214
        },
        {
            "id": 12,
@@ -106,7 +129,9 @@
            "class": 2,
            "range": "Elk Mountains",
            "image": "https://www.14ers.com/images/pthumbs/10012.jpg",
-           "mainImage": "https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast04.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast04.jpg?lu=20210402",
+           "latitude": 39.0058,
+           "longitude": -106.8568
        },
        {
            "id": 13,
@@ -115,7 +140,9 @@
            "class": 1,
            "range": "Tenmile Range",
            "image": "https://www.14ers.com/images/pthumbs/10013.jpg",
-           "mainImage": "https://www.14ers.com/photos/quandarypeak/peakphotos/medium/201704_Quan01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/quandarypeak/peakphotos/medium/201704_Quan01.jpg?lu=20210402",
+           "latitude": 39.3972,
+           "longitude": -106.1064
        },
        {
            "id": 14,
@@ -124,7 +151,9 @@
            "class": 2,
            "range": "Front Range",
            "image": "https://www.14ers.com/images/pthumbs/10014.jpg",
-           "mainImage": "https://www.14ers.com/photos/evansgroup/peakphotos/medium/200907_Evans01.jpg?lu=20210610"
+           "mainImage": "https://www.14ers.com/photos/evansgroup/peakphotos/medium/200907_Evans01.jpg?lu=20210610",
+           "latitude": 39.5883,
+           "longitude": -106.6438
        },
        {
            "id": 15,
@@ -133,7 +162,9 @@
            "class": 3,
            "range": "Front Range",
            "image": "https://www.14ers.com/images/pthumbs/10015.jpg",
-           "mainImage": "https://www.14ers.com/photos/longspeak/peakphotos/medium/200508_Longs02.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/longspeak/peakphotos/medium/200508_Longs02.jpg?lu=20210402",
+           "latitude": 40.2549,
+           "longitude": -105.6160
        },
        {
            "id": 16,
@@ -142,7 +173,9 @@
            "class": 4,
            "range": "San Juan Mountains",
            "image": "https://www.14ers.com/images/pthumbs/10016.jpg",
-           "mainImage": "https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_Wils15.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_Wils15.jpg?lu=20210402",
+           "latitude": 37.8392,
+           "longitude": -107.9915
        },
        {
            "id": 17,
@@ -151,7 +184,9 @@
            "class": 2,
            "range": "Mosquito Range",
            "image": "https://www.14ers.com/images/pthumbs/10063.jpg",
-           "mainImage": "https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_Wils15.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200409_Cam01.jpg?lu=20210402",
+           "latitude": 39.3469,
+           "longitude": -106.1186
        },
        {
            "id": 18,
@@ -160,7 +195,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10017.jpg",
-           "mainImage": "https://www.14ers.com/photos/shavanogroup/peakphotos/medium/200706_Shav01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/shavanogroup/peakphotos/medium/200706_Shav01.jpg?lu=20210402",
+           "latitude": 38.6189,
+           "longitude": -106.2395
        },
        {
            "id": 19,
@@ -169,7 +206,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10020.jpg",
-           "mainImage": "https://www.14ers.com/photos/mtprinceton/peakphotos/medium/200904_Prin01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/mtprinceton/peakphotos/medium/200904_Prin01.jpg?lu=20210402",
+           "latitude": 38.7494,
+           "longitude": -106.2425
        },
        {
            "id": 20,
@@ -178,7 +217,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10018.jpg",
-           "mainImage": "https://www.14ers.com/photos/belfordgroup/peakphotos/medium/201207_Belf01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/belfordgroup/peakphotos/medium/201207_Belf01.jpg?lu=20210402",
+           "latitude": 38.9605,
+           "longitude": -106.3611
        },
        {
            "id": 21,
@@ -187,7 +228,9 @@
            "class": 3,
            "range": "Sangre de Cristo",
            "image": "https://www.14ers.com/images/pthumbs/10019.jpg",
-           "mainImage": "https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201101_Crestones01.jpg?lu=20210623"
+           "mainImage": "https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201101_Crestones01.jpg?lu=20210623",
+           "latitude": 37.9647,
+           "longitude": -105.5767
        },
        {
            "id": 22,
@@ -196,7 +239,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10021.jpg",
-           "mainImage": "https://www.14ers.com/photos/mtyale/peakphotos/medium/201004_Yale01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/mtyale/peakphotos/medium/201004_Yale01.jpg?lu=20210402",
+           "latitude": 38.8442,
+           "longitude": -106.3139
        },
        {
            "id": 23,
@@ -205,7 +250,9 @@
            "class": 2,
            "range": "Mosquito Range",
            "image": "https://www.14ers.com/images/pthumbs/10022.jpg",
-           "mainImage": "https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200404_LinBro01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200404_LinBro01.jpg?lu=20210402",
+           "latitude": 39.3353,
+           "longitude": -106.1075
        },
        {
            "id": 24,
@@ -214,7 +261,9 @@
            "class": 3,
            "range": "Sangre de Cristo",
            "image": "https://www.14ers.com/images/pthumbs/10023.jpg",
-           "mainImage": "https://www.14ers.com/photos/kitcarsongroup/peakphotos/medium/201003_kitcar02.jpg?lu=20210731"
+           "mainImage": "https://www.14ers.com/photos/kitcarsongroup/peakphotos/medium/201003_kitcar02.jpg?lu=20210731",
+           "latitude": 37.9797,
+           "longitude": -105.6025
        },
        {
            "id": 25,
@@ -223,7 +272,9 @@
            "class": 3,
            "range": "San Juan Mountains",
            "image": "https://www.14ers.com/images/pthumbs/10064.jpg",
-           "mainImage": "https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_ElD03.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_ElD03.jpg?lu=20210402",
+           "latitude": 37.8394,
+           "longitude": -108.0053
        },
        {
            "id": 26,
@@ -232,7 +283,9 @@
            "class": 3,
            "range": "Elk Mountains",
            "image": "https://www.14ers.com/images/pthumbs/10024.jpg",
-           "mainImage": "https://www.14ers.com/photos/maroongroup/peakphotos/medium/201807_Maro01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/maroongroup/peakphotos/medium/201807_Maro01.jpg?lu=20210402",
+           "latitude": 39.0708,
+           "longitude": -106.9890
        },
        {
            "id": 26,
@@ -241,7 +294,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10025.jpg",
-           "mainImage": "https://www.14ers.com/photos/shavanogroup/peakphotos/medium/200706_Shav01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/shavanogroup/peakphotos/medium/200706_Shav01.jpg?lu=20210402",
+           "latitude": 38.6253,
+           "longitude": -106.2509
        },
        {
            "id": 27,
@@ -250,7 +305,9 @@
            "class": 2,
            "range": "Sawatch Range",
            "image": "https://www.14ers.com/images/pthumbs/10026.jpg",
-           "mainImage": "https://www.14ers.com/photos/belfordgroup/peakphotos/medium/201204_Belf01.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/belfordgroup/peakphotos/medium/201204_Belf01.jpg?lu=20210402",
+           "latitude": 38.9647,
+           "longitude": -106.3389
        },
        {
            "id": 28,
@@ -259,277 +316,328 @@
            "class": 3,
            "range": "San Juan Mountains",
            "image": "https://www.14ers.com/images/pthumbs/10027.jpg",
-           "mainImage": "https://www.14ers.com/photos/mtsneffels/peakphotos/medium/200807_Snef03.jpg?lu=20210402"
+           "mainImage": "https://www.14ers.com/photos/mtsneffels/peakphotos/medium/200807_Snef03.jpg?lu=20210402",
+           "latitude": 38.0033,
+           "longitude": -107.7923
        },
        {
-           "id": 29,
-           "name": "Capitol Peak",
-           "elevation": 14130,
-           "class": 4,
-           "range": "Elk Mountains",
-           "image": "https://www.14ers.com/images/pthumbs/10029.jpg",
-           "mainImage": "https://www.14ers.com/photos/capitolpeak/peakphotos/medium/200807_Capi01.jpg?lu=20210402"
-       },
-       {
-          "id":30,
+          "id":29,
           "name":"Mt. Democrat",
           "elevation":14148,
           "class":2,
           "range":"Mosquito Range",
           "image":"https://www.14ers.com/images/pthumbs/10028.jpg",
-          "mainImage":"https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200811_Linc01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/lincolngroup/peakphotos/medium/200811_Linc01.jpg?lu=20210402",
+          "latitude": 39.3397,
+          "longitude": -106.1400
        },
        {
-          "id":31,
+          "id":30,
           "name":"Capitol Peak",
           "elevation":14130,
           "class":4,
           "range":"Elk Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10029.jpg",
-          "mainImage":"https://www.14ers.com/photos/capitolpeak/peakphotos/medium/200807_Capi01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/capitolpeak/peakphotos/medium/200807_Capi01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":32,
+          "id":31,
           "name":"Pikes Peak",
           "elevation":14110,
           "class":1,
           "range":"Front Range",
           "image":"https://www.14ers.com/images/pthumbs/10030.jpg",
-          "mainImage":"https://www.14ers.com/photos/pikespeak/peakphotos/medium/200611_Pikes16.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/pikespeak/peakphotos/medium/200611_Pikes16.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":33,
+          "id":32,
           "name":"Snowmass Mountain",
           "elevation":14092,
           "class":3,
           "range":"Elk Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10031.jpg",
-          "mainImage":"https://www.14ers.com/photos/snowmassmtn/peakphotos/medium/200907_Snow04.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/snowmassmtn/peakphotos/medium/200907_Snow04.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":34,
+          "id":33,
           "name":"Windom Peak",
           "elevation":14087,
           "class":2,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10033.jpg",
-          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200607_Wind01.jpg?lu=20210623"
+          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200607_Wind01.jpg?lu=20210623",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":35,
+          "id":34,
           "name":"Mt. Eolus",
           "elevation":14083,
           "class":3,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10032.jpg",
-          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200607_Eolus01.jpg?lu=20210623"
+          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200607_Eolus01.jpg?lu=20210623",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":36,
+          "id":35,
           "name":"Challenger Point",
           "elevation":14081,
           "class":2,
           "range":"Sangre de Cristo",
           "image":"https://www.14ers.com/images/pthumbs/10034.jpg",
-          "mainImage":"https://www.14ers.com/photos/kitcarsongroup/peakphotos/medium/200707_kitcar03.jpg?lu=20210731"
+          "mainImage":"https://www.14ers.com/photos/kitcarsongroup/peakphotos/medium/200707_kitcar03.jpg?lu=20210731",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":37,
+          "id":36,
           "name":"Mt. Columbia",
           "elevation":14073,
           "class":2,
           "range":"Sawatch Range",
           "image":"https://www.14ers.com/images/pthumbs/10035.jpg",
-          "mainImage":"https://www.14ers.com/photos/kitcarsongroup/peakphotos/medium/200707_kitcar03.jpg?lu=20210731"
+          "mainImage":"https://www.14ers.com/photos/kitcarsongroup/peakphotos/medium/200707_kitcar03.jpg?lu=20210731",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":38,
+          "id":37,
           "name":"Missouri Mountain",
           "elevation":14067,
           "class":2,
           "range":"Sawatch Range",
           "image":"https://www.14ers.com/images/pthumbs/10036.jpg",
-          "mainImage":"https://www.14ers.com/photos/belfordgroup/peakphotos/medium/200508_Miss01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/belfordgroup/peakphotos/medium/200508_Miss01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":39,
+          "id":38,
           "name":"Humboldt Peak",
           "elevation":14064,
           "class":2,
           "range":"Sangre de Cristo",
           "image":"https://www.14ers.com/images/pthumbs/10037.jpg",
-          "mainImage":"https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201607_Crestones01.jpg?lu=20210623"
+          "mainImage":"https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201607_Crestones01.jpg?lu=20210623",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":40,
+          "id":39,
           "name":"Mt. Bierstadt",
           "elevation":14060,
           "class":3,
           "range":"Front Range",
           "image":"https://www.14ers.com/images/pthumbs/10038.jpg",
-          "mainImage":"https://www.14ers.com/photos/evansgroup/peakphotos/medium/200907_Evans01.jpg?lu=20210610"
+          "mainImage":"https://www.14ers.com/photos/evansgroup/peakphotos/medium/200907_Evans01.jpg?lu=20210610",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":41,
+          "id":40,
           "name":"Conundrum Peak",
           "elevation":14060,
           "class":2,
           "range":"Elk Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10065.jpg",
-          "mainImage":"https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast02.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast02.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":42,
+          "id":41,
           "name":"Sunlight Peak",
           "elevation":14059,
           "class":4,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10039.jpg",
-          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200607_Sunl15.jpg?lu=20210623"
+          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200607_Sunl15.jpg?lu=20210623",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":43,
+          "id":42,
           "name":"Handies Peak",
           "elevation":14048,
           "class":1,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10040.jpg",
-          "mainImage":"https://www.14ers.com/photos/handiespeak/peakphotos/medium/200606_Hand01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/handiespeak/peakphotos/medium/200606_Hand01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":44,
+          "id":43,
           "name":"Culebra Peak",
           "elevation":14047,
           "class":2,
           "range":"Sangre de Cristo",
           "image":"https://www.14ers.com/images/pthumbs/10041.jpg",
-          "mainImage":"https://www.14ers.com/photos/culebrapeak/peakphotos/medium/200507_Cule03.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/culebrapeak/peakphotos/medium/200507_Cule03.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":45,
+          "id":44,
           "name":"Mt. Lindsey",
           "elevation":14042,
           "class":3,
           "range":"Sangre de Cristo",
           "image":"https://www.14ers.com/images/pthumbs/10043.jpg",
-          "mainImage":"https://www.14ers.com/photos/mtlindsey/peakphotos/medium/200607_Lind02.jpg?lu=20210625"
+          "mainImage":"https://www.14ers.com/photos/mtlindsey/peakphotos/medium/200607_Lind02.jpg?lu=20210625",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":46,
+          "id":45,
           "name":"Ellingwood Point",
           "elevation":14042,
           "class":2,
           "range":"Sangre de Cristo",
           "image":"https://www.14ers.com/images/pthumbs/10042.jpg",
-          "mainImage":"https://www.14ers.com/photos/blancagroup/peakphotos/medium/200607_Blanca01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/blancagroup/peakphotos/medium/200607_Blanca01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":47,
+          "id":46,
           "name":"North Eolus",
           "elevation":14039,
           "class":3,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10066.jpg",
-          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200708_Eolus01.jpg?lu=20210623"
+          "mainImage":"https://www.14ers.com/photos/windomgroup/peakphotos/medium/200708_Eolus01.jpg?lu=20210623",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":48,
+          "id":47,
           "name":"Little Bear Peak",
           "elevation":14037,
           "class":4,
           "range":"Sange de Cristo",
           "image":"https://www.14ers.com/images/pthumbs/10044.jpg",
-          "mainImage":"https://www.14ers.com/photos/blancagroup/peakphotos/medium/200607_Litt01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/blancagroup/peakphotos/medium/200607_Litt01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":49,
+          "id":48,
           "name":"Mt. Sherman",
           "elevation":14036,
           "class":2,
           "range":"Mosquito Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10045.jpg",
-          "mainImage":"https://www.14ers.com/photos/mtsherman/peakphotos/medium/200807_Sher06.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/mtsherman/peakphotos/medium/200807_Sher06.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":50,
+          "id":49,
           "name":"Redcloud Peak",
           "elevation":14034,
           "class":2,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10046.jpg",
-          "mainImage":"https://www.14ers.com/photos/redcloudgroup/peakphotos/medium/200606_Redc04.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/redcloudgroup/peakphotos/medium/200606_Redc04.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":51,
+          "id":50,
           "name":"Pyramid Peak",
           "elevation":14018,
           "class":4,
           "range":"Elk Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10047.jpg",
-          "mainImage":"https://www.14ers.com/photos/maroongroup/peakphotos/medium/200809_Pyra01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/maroongroup/peakphotos/medium/200809_Pyra01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":52,
+          "id":51,
           "name":"Wilson Peak",
           "elevation":14017,
           "class":3,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10048.jpg",
-          "mainImage":"https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_ElD03.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/wilsongroup/peakphotos/medium/200708_ElD03.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":53,
+          "id":52,
           "name":"Wetterhorn Peak",
           "elevation":14015,
           "class":3,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10049.jpg",
-          "mainImage":"https://www.14ers.com/photos/wetterhornpeak/peakphotos/medium/200507_Wett03.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/wetterhornpeak/peakphotos/medium/200507_Wett03.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":54,
+          "id":53,
           "name":"San Luis Peak",
           "elevation":14014,
           "class":1,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10050.jpg",
-          "mainImage":"https://www.14ers.com/photos/sanluispeak/peakphotos/medium/200706_San02.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/sanluispeak/peakphotos/medium/200706_San02.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":55,
+          "id":54,
           "name":"North Maroon Peak",
           "elevation":14014,
           "class":4,
           "range":"Elk Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10067.jpg",
-          "mainImage":"https://www.14ers.com/photos/maroongroup/peakphotos/medium/200807_NMar01.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/maroongroup/peakphotos/medium/200807_NMar01.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":56,
+          "id":55,
           "name":"Mt. of the Holy Cross",
           "elevation":14005,
           "class":2,
           "range":"Sawatch Range",
           "image":"https://www.14ers.com/images/pthumbs/10051.jpg",
-          "mainImage":"https://www.14ers.com/photos/mtholycross/peakphotos/medium/200706_Holy06.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/mtholycross/peakphotos/medium/200706_Holy06.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":57,
+          "id":56,
           "name":"Huron Peak",
           "elevation":14003,
           "class":2,
           "range":"Sawatch Range",
           "image":"https://www.14ers.com/images/pthumbs/10052.jpg",
-          "mainImage":"https://www.14ers.com/photos/huronpeak/peakphotos/medium/200509_Huro02.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/huronpeak/peakphotos/medium/200509_Huro02.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        },
        {
-          "id":58,
+          "id":57,
           "name":"Sunshine Peak",
           "elevation":14001,
           "class":2,
           "range":"San Juan Mountains",
           "image":"https://www.14ers.com/images/pthumbs/10053.jpg",
-          "mainImage":"https://www.14ers.com/photos/redcloudgroup/peakphotos/medium/201610_Redc02.jpg?lu=20210402"
+          "mainImage":"https://www.14ers.com/photos/redcloudgroup/peakphotos/medium/201610_Redc02.jpg?lu=20210402",
+          "latitude": 39.1178,
+          "longitude": -106.4452
        }
     ]
  }
