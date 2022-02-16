@@ -27,7 +27,7 @@ useEffect(() => {
           />
         ))}
       </ul>
-      <Map />
+      <Map myPeaks={myPeaks}/>
     </div>
   )
 }
