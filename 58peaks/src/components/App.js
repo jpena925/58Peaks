@@ -19,7 +19,9 @@ function App() {
     class: 1,
     range: "Sawatch Range",
     image: "https://www.14ers.com/images/pthumbs/10001.jpg",
-    mainImage: "https://www.14ers.com/photos/mtelbert/peakphotos/medium/200506_Elbert02.jpg?lu=20210623"
+    mainImage: "https://www.14ers.com/photos/mtelbert/peakphotos/medium/200506_Elbert02.jpg?lu=20210623",
+    latitude: 39.1178,
+    longitude: -106.4452
   })
   
 

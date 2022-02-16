@@ -130,7 +130,7 @@
             "class": 2,
             "range": "Elk Mountains",
             "image": "https://www.14ers.com/images/pthumbs/10012.jpg",
-            "mainImage": "https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast04.jpg?lu=20210402",
+            "mainImage": "https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast02.jpg?lu=20210402",
             "latitude": 39.0058,
             "longitude": -106.8568
         },
@@ -152,7 +152,7 @@
             "class": 2,
             "range": "Front Range",
             "image": "https://www.14ers.com/images/pthumbs/10014.jpg",
-            "mainImage": "https://www.14ers.com/photos/evansgroup/peakphotos/medium/200907_Evans01.jpg?lu=20210610",
+            "mainImage": "https://www.14ers.com/photos/evansgroup/peakphotos/medium/200205_Evans10.jpg?lu=20210610",
             "latitude": 39.5883,
             "longitude": -106.6438
         },
@@ -427,7 +427,7 @@
            "class":2,
            "range":"Sangre de Cristo",
            "image":"https://www.14ers.com/images/pthumbs/10037.jpg",
-           "mainImage":"https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201607_Crestones01.jpg?lu=20210623",
+           "mainImage":"https://www.14ers.com/photos/crestonegroup/peakphotos/medium/201607_Humb01.jpg?lu=20210623",
            "latitude": 37.9761,
            "longitude": -105.5553
         },
@@ -435,10 +435,10 @@
            "id":40,
            "name":"Mt. Bierstadt",
            "elevation":14060,
-           "class":3,
+           "class":2,
            "range":"Front Range",
-           "image":"https://www.14ers.com/images/pthumbs/10038.jpg",
-           "mainImage":"https://www.14ers.com/photos/evansgroup/peakphotos/medium/200907_Evans01.jpg?lu=20210610",
+           "image":"https://www.14ers.com/images/pthumbs/10038.jpg"
+           "mainImage":"https://www.14ers.com/photos/evansgroup/peakphotos/medium/200112_Bier01.jpg?lu=20210610",
            "latitude": 39.5828,
            "longitude": -105.6686
         },
@@ -449,7 +449,7 @@
            "class":2,
            "range":"Elk Mountains",
            "image":"https://www.14ers.com/images/pthumbs/10065.jpg",
-           "mainImage":"https://www.14ers.com/photos/castlegroup/peakphotos/medium/200807_Cast02.jpg?lu=20210402",
+           "mainImage":"https://www.14ers.com/photos/castlegroup/peakphotos/medium/200507_Cast01.jpg?lu=20210402",
            "latitude": 39.0144,
            "longitude": -106.8639
         },

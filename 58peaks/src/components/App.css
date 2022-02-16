@@ -3,14 +3,16 @@ html {
 }
 
 body {
-    height: 140rem;
-    border: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     font-family: 'Playfair Display', serif;
     font-weight: 300;
     font-size: 10px;
     position: relative;
     background: rgb(41,42,51);
     background: linear-gradient(0deg, rgba(41, 42, 51, 0.626) 0%, rgba(227, 160, 28, 0.373) 45%, rgba(174, 127, 136, 0.373) 71%, rgba(178, 220, 237, 0.489) 100%);
+    margin-bottom: 100px;
 }
 
 /* header css */
@@ -113,7 +115,9 @@ td {
 }
 .mountain-container-2 table {
     table-layout: fixed;
-    width: 650px;
+    width: 600px;
+    margin-left: 30px;
+    
 }
 
 .body {
@@ -147,8 +151,10 @@ h1 {
 }
 
 #selected-peak {
+    /* display: flex;
+    flex-direction: column; */
     margin: auto;
-    height: 800px;
+    height: 100%;
     background-color: rgba(255,255,255,0.3);
     padding: 0px 20px 20px 20px;
 }
@@ -170,9 +176,9 @@ form {
 
 input, textarea {
     border: 0;
-    padding:px;
     box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.229);
     margin-bottom: 6px;
+    resize: vertical;
 }
 
 label {
@@ -186,12 +192,10 @@ label {
 }
 
 #completed {
-    position: absolute;
-    top: 190px;
-    left: 260px;
     border: 1.5px solid #e4f0f5;
     background-color: rgba(255,255,255,0.3);
-    padding: 5px 5px
+    padding: 5px 5px 5px 5px;
+    margin: 85px 0px 10px 0px;
 }
 
 
@@ -203,9 +207,6 @@ label {
 }
 
 #submit {
-    position: absolute;
-    top: 190px;
-    left: 290px;
     border: 1.5px solid #e4f0f5;
     background-color: rgba(255,255,255,0.3);
     padding: 5px 5px
@@ -256,4 +257,39 @@ label {
     display: flex;
     float: right;
 
+}
+
+/* my peaks styling */
+
+#my-peaks-container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.my-peaks {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.peak-item {
+    display: flex;
+}
+
+.my-peak {
+    width: 305px;
+    height: 480px;
+    background-color: rgba(255,255,255,0.3);
+    padding: 0px 20px 20px 20px;
+    margin: 10px 45px 10px 45px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.my-image {
+    object-fit: cover;
+    width: 300px;
+    height: 169px;
+    margin: auto;
 }
