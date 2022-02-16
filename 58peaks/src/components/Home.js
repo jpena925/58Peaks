@@ -3,15 +3,8 @@ import image from '../data/pngwing.com.png'
 
 
 
-
-function Home() {
-  const [peaks, setPeaks] = useState([])
-
-  useEffect(() => {
-    fetch('http://localhost:3001/peaks')
-    .then(res => res.json())
-    .then(data => setPeaks(data.sort(() => Math.random() - Math.random()).splice(0, 10)))
-  }, [])
+function Home({ randomPeaks }) {
+  
 
 
   return (
@@ -19,24 +12,24 @@ function Home() {
       <div id='random-container'>
         <table>
           <thead>
-          <tr>
-            <th></th>
-            <th>14er</th>
-            <th>Elevation</th>
-            <th>Class</th>
-            <th>Range</th>
-          </tr>
+            <tr>
+              <th></th>
+              <th>14er</th>
+              <th>Elevation</th>
+              <th>Class</th>
+              <th>Range</th>
+            </tr>
           </thead>
           <tbody>
-          {peaks.map(peak => (
-            <tr>
-              <td><img key={peak.id} src={peak.image} alt={peak.name} className="table-image"/></td>
-              <td>{peak.name}</td>
-              <td>{peak.elevation.toString().slice(0,2) + ',' + peak.elevation.toString().slice(2,5) + "'"}</td>
-              <td>{peak.class}</td>
-              <td>{peak.range}</td>
-            </tr>
-          ))}
+            {randomPeaks.map(peak => (
+              <tr>
+                <td><img key={peak.id} src={peak.image} alt={peak.name} className="table-image"/></td>
+                <td>{peak.name}</td>
+                <td>{peak.elevation.toString().slice(0,2) + ',' + peak.elevation.toString().slice(2,5) + "'"}</td>
+                <td>{peak.class}</td>
+                <td>{peak.range}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
         
