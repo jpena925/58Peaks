@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import GoogleMapReact from "google-map-react";
 import pin from "../data/pin2.png"
 import { Link } from "react-router-dom"
@@ -12,11 +12,13 @@ const pinStyle = {
 	transform: "translate(-50%, -100%)"
   };
 
+
 class Map extends React.Component {
 	static defaultProps = {
 		center: { lat: 39.0, lng: -105.7821 },
 		zoom: 6.75,
 	};
+	
 
 	render() {
 		return (
@@ -26,14 +28,17 @@ class Map extends React.Component {
 					width: "45%",
 					padding: "20px",
 					marginBottom: "100px",
-				}}>
+				}} id='map-google'>
 				<GoogleMapReact
 					bootstrapURLKeys={{
 						key: GMAP_API,
 						language: "en",
+						
 					}}
+					
 					defaultCenter={this.props.center}
 					defaultZoom={this.props.zoom}
+					
 					>
 						{this.props.myPeaks.map(peak => {
 							console.log(peak.latitude, peak.longitude)

@@ -8,7 +8,6 @@ const [insta, setInsta] = useState([])
 
 const instaKey = process.env.REACT_APP_INSTAGRAM_KEY
 
-console.log(instaKey)
 
 useEffect(() => {
   fetch('http://localhost:3002/peaks')
@@ -22,7 +21,7 @@ useEffect(() => {
   .then(data => setInsta(data.data.slice(0,6)))
 }, [])
 
-console.log(insta)
+
 
   return (
     <div id='my-peaks-container'>
