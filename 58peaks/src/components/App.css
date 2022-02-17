@@ -219,8 +219,48 @@ label {
     color: #fff;
 }
 /*Planning*/
+
+#map-google {
+    background-color: rgba(255,255,255,0.3);
+    margin: auto;
+    margin-top: 80px;
+    
+}
+
+.plan-hike-split {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1500px;
+    position: relative;
+    padding-top: 100px;
+}
+
 #planning-container {
-    position: absolute;
+    margin: auto;
+    max-width: 1500px;
+    padding-top: 50px;
+}
+
+.mountain-select{
+    float: right;
+}
+
+.weather {
+    width: 305px;
+    height: 280px;
+    background-color: rgba(255,255,255,0.3);
+    padding: 0px 20px 20px 20px;
+    margin: 10px 45px 10px 45px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 1.5rem;
+    float: right;
+}
+
+#weather-icon {
+    margin-top: 5px;
+    width: 30px;
 }
 
 #formtitle {
@@ -233,7 +273,7 @@ label {
 #packing-input{
     margin-left: 10px;
     margin-right: 10px;
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
@@ -247,6 +287,7 @@ label {
     max-height: 500px;
     overflow-y: auto;
     list-style-type: none;
+    width: 500px;
 }
 
 .packing-item{
@@ -316,6 +357,7 @@ label {
 
 #instagram{
     text-align: center;
+    background-color: rgba(255,255,255,0.3);
 }
 
 #instagram div p {

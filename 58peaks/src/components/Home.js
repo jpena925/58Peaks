@@ -4,7 +4,6 @@ import image from '../data/pngwing.com.png'
 
 
 function Home({ randomPeaks }) {
-  
 
 
   return (
