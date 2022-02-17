@@ -50,12 +50,62 @@ body {
 
 /*home page css*/
 
+
+#main-image-container {
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+#main-image{
+    max-width: 80%;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 80px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 50px;
+    
+}
+
+#hover-text-container{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.195);
+    width: calc(80% - 0px);
+    margin-left: 10%;
+    margin-top: -35%;
+    font-size: 3rem;
+}
+
+#hover-text:hover{
+    cursor: pointer;
+}
+
+
+#hover-text{
+    color: #fff;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+    
+}
+
+@keyframes pulsate {
+    0% { 
+        opacity: 0.5;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.5;
+    }
+}
+
+
 .mountain-container {
-    display: flex;
-    flex-direction: row;
     margin: auto;
     max-width: 1500px;
     position: relative;
+    text-align: center;
 }
 
 .home-column {
@@ -73,7 +123,7 @@ body {
 #random-container {
     max-width: 1500px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 .table-image {
@@ -353,6 +403,10 @@ label {
 
 #insta-icon:hover {
     cursor: pointer;
+}
+
+#insta-container{
+    background-color: rgba(255,255,255,0.3);
 }
 
 #instagram{

@@ -12,8 +12,8 @@ function PlanningForm({ formData, setFormData, onAddPackingItem }) {
 					name="packing-input"
 					type="text"
 					placeholder="Add packing item..."
-          value={formData}
-          onChange={(e) => setFormData(e.target.value)}></input>
+					value={formData}
+					onChange={(e) => setFormData(e.target.value)}></input>
 				<button>Submit</button>
 			</form>
 		</div>

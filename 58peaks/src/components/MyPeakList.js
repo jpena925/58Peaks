@@ -21,6 +21,7 @@ useEffect(() => {
 }, [])
 
   return (
+    <>
     <div id='my-peaks-container'>
       <ul className='my-peaks'>
         {myPeaks.map(peak => (
@@ -37,7 +38,9 @@ useEffect(() => {
         ))}
       </ul>
       <Map myPeaks={myPeaks}/>
-      <section id='instagram'>
+      </div>
+      <section id='insta-container'>
+        <div id='instagram'>
             <div>
                 <a href='https://www.instagram.com/58peaks/?hl=en' target="_blank">
                 <img id='insta-icon' src='https://lh3.googleusercontent.com/pw/AM-JKLXZ9hkdutRd0MF-BvNqaITa5QorTZuGSyUtaILIJIReqEKiwQS9rRKP9VofSvUHe1ULobP74_wjvFTZ_WmfH2-pOebUeiTh2yDG7b_8Wt5pqDdF2OcgfDSgmMvNydytL8Pvhkiv1Q3C5RqZZI5IX1zg=s96-no?authuser=0' alt='icon' />
@@ -49,9 +52,9 @@ useEffect(() => {
                     <img key={photo.id} className='insta-photos' src={photo.media_url} alt={photo.id}/>
                 ))}
             </div>
+            </div>
         </section>
-
-    </div>
+        </>
   )
 }
 

@@ -50,7 +50,7 @@ function Planning({allPeaks}) {
 	<div className="weather">
 		<h1>Current weather near {selectedMountain.name}</h1>
 		<p><strong>Condition:</strong> {currentWeather.condition.text}<img src={currentWeather.condition.icon} id='weather-icon' /></p>
-		<p><strong>Tempeture:</strong> {currentWeather.temp_f}°</p>
+		<p><strong>Temperature:</strong> {currentWeather.temp_f}°</p>
 		<p><strong>Feels like:</strong> {currentWeather.feelslike_f}°</p>
 		<p><strong>Wind:</strong> {currentWeather.wind_mph}mph</p>
 		<p><strong>Wind Direction:</strong> {currentWeather.wind_dir}</p>
