@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import GoogleMapReact from "google-map-react";
-import pin from "../data/pin2.png"
+import pin from "../data/kisspng-macerata-pin-google-maps-brooche-cliparts-5a85e6a136d1f0.3379687315187247692246.png"
 import { Link } from "react-router-dom"
 import mapStyle from "./mapStyle";
 
@@ -12,6 +12,7 @@ const pinStyle = {
 	top: "100%",
 	left: "50%",
 	transform: "translate(-50%, -100%)",
+	width: "30px"
 };
 
 
