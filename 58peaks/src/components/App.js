@@ -46,7 +46,7 @@ function App() {
 					<MyPeakList />
 				</Route>
 				<Route path="/planmyhike">
-					<Planning />
+					<Planning allPeaks={allPeaks} />
 				</Route>
 				<Route exact path="/">
 					<Home randomPeaks={randomPeaks} />

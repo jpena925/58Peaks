@@ -4,7 +4,7 @@ function PlanningForm({ formData, setFormData, onAddPackingItem }) {
 
 
 	return (
-		<div>
+		<div id="packing">
 			<form onSubmit={(e) => onAddPackingItem(e, formData)}>
 				<label htmlFor="packing-input" id="formtitle">Make Your Packing List!</label>
 				<input

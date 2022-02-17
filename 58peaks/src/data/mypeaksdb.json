@@ -48,6 +48,19 @@
       "id": 4,
       "latitude": 38.9472,
       "longitude": -106.3784
+    },
+    {
+      "name": "Mt. Harvard",
+      "elevation": 14420,
+      "class": 2,
+      "range": "Sawatch Range",
+      "myTime": "10 hours",
+      "myImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Mount_Harvard_%28Colorado%29_-_2006-07-16.jpg/800px-Mount_Harvard_%28Colorado%29_-_2006-07-16.jpg",
+      "myRoute": "West Ridge",
+      "myComment": "I'm so smart i went to Harvard",
+      "longitude": -106.3206,
+      "latitude": 38.9244,
+      "id": 5
     }
   ]
 }

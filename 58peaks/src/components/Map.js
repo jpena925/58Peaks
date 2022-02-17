@@ -2,6 +2,7 @@ import React, {useEffect} from "react";
 import GoogleMapReact from "google-map-react";
 import pin from "../data/pin2.png"
 import { Link } from "react-router-dom"
+import mapStyle from "./mapStyle";
 
 const GMAP_API = process.env.REACT_APP_GOOGLE_API_KEY
 
@@ -38,6 +39,9 @@ class Map extends React.Component {
 					
 					defaultCenter={this.props.center}
 					defaultZoom={this.props.zoom}
+					options={{
+						styles: mapStyle
+					}}
 					
 					>
 						{this.props.myPeaks.map(peak => {

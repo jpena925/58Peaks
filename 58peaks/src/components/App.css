@@ -227,10 +227,23 @@ label {
     
 }
 
+.plan-hike-split {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1500px;
+    position: relative;
+    padding-top: 100px;
+}
+
 #planning-container {
     margin: auto;
     max-width: 1500px;
-    
+    padding-top: 50px;
+}
+
+.mountain-select{
+    float: right;
 }
 
 .weather {
@@ -242,6 +255,7 @@ label {
     overflow-y: auto;
     overflow-x: hidden;
     font-size: 1.5rem;
+    float: right;
 }
 
 #weather-icon {
@@ -259,7 +273,7 @@ label {
 #packing-input{
     margin-left: 10px;
     margin-right: 10px;
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
@@ -273,6 +287,7 @@ label {
     max-height: 500px;
     overflow-y: auto;
     list-style-type: none;
+    width: 500px;
 }
 
 .packing-item{
