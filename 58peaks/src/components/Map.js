@@ -4,14 +4,15 @@ import pin from "../data/pin2.png"
 import { Link } from "react-router-dom"
 import mapStyle from "./mapStyle";
 
-const GMAP_API = process.env.REACT_APP_GOOGLE_API_KEY
+
+const GMAP_API = process.env.REACT_APP_GOOGLE_API_KEY;
 
 const pinStyle = {
 	position: "absolute",
 	top: "100%",
 	left: "50%",
-	transform: "translate(-50%, -100%)"
-  };
+	transform: "translate(-50%, -100%)",
+};
 
 
 class Map extends React.Component {
@@ -53,6 +54,7 @@ class Map extends React.Component {
 							)
 						})}
 					</GoogleMapReact>
+
 				<br></br>
 			</div>
 		);
