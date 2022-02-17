@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PlanningForm from "./PlanningForm";
 import PackingList from "./PackingList";
+import campIcon from '../data/smallestcampicon.png'
 
 function Planning({allPeaks}) {
 	const [formData, setFormData] = useState("");
@@ -15,7 +16,8 @@ function Planning({allPeaks}) {
         image: "https://www.14ers.com/images/pthumbs/10001.jpg",
         mainImage: "https://www.14ers.com/photos/mtelbert/peakphotos/medium/200506_Elbert02.jpg?lu=20210623",
         latitude: 39.1178,
-        longitude: -106.4452
+        longitude: -106.4452,
+		campgrounds: ["Parry Peak Campground", "Lakeview Campground", "White Star Campground"]
 	})
 	const weatherKey = process.env.REACT_APP_WEATHER_KEY
 
@@ -42,20 +44,27 @@ function Planning({allPeaks}) {
 			const newObj = data.current
 			setCurrentWeather(newObj)
 		})	
-	}, [currentWeather])
+	}, [selectedMountain])
 
-	
+	console.log(selectedMountain)
 
 	const weather = currentWeather ? 
 	<div className="weather">
 		<h1>Current weather near {selectedMountain.name}</h1>
 		<p><strong>Condition:</strong> {currentWeather.condition.text}<img src={currentWeather.condition.icon} id='weather-icon' /></p>
-		<p><strong>Tempeture:</strong> {currentWeather.temp_f}°</p>
+		<p><strong>Temperature:</strong> {currentWeather.temp_f}°</p>
 		<p><strong>Feels like:</strong> {currentWeather.feelslike_f}°</p>
 		<p><strong>Wind:</strong> {currentWeather.wind_mph}mph</p>
 		<p><strong>Wind Direction:</strong> {currentWeather.wind_dir}</p>
 	</div>
 	: null
+
+	const campgrounds = selectedMountain.campgrounds.map(camp => {
+		let searchVersion = camp.replace(' ', '+')
+		return (<li key={camp} className="campsite-li">
+			<a className="campsite-link" href={`https://www.google.com/search?q=${searchVersion}`}>{camp}</a>
+			<img className="campsite-icon" src={campIcon} alt='campicon' />
+		</li>)})
 
 
 	return (
@@ -76,13 +85,18 @@ function Planning({allPeaks}) {
 					</form>
 				</div>
 			</div>
-
+			<div id='packing-form-and-list'>
 			<PlanningForm
 				formData={formData}
 				setFormData={setFormData}
 				onAddPackingItem={handleAddPackingItem}
 			/>
 			<PackingList packingList={packingList} />
+			</div>
+			<div className="weather" id="campsites">
+				<h1>{`Campsites near ${selectedMountain.name}`}</h1>
+				<ul>{campgrounds}</ul>
+			</div>
 		</div>
 		</section>
 	);
