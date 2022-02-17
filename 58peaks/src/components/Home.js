@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import image from '../data/pngwing.com.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -8,37 +8,12 @@ function Home({ randomPeaks }) {
 
   return (
     <section className='mountain-container'>
-      <div id='random-container'>
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              <th>14er</th>
-              <th>Elevation</th>
-              <th>Class</th>
-              <th>Range</th>
-            </tr>
-          </thead>
-          <tbody>
-            {randomPeaks.map(peak => (
-              <tr>
-                <td><img key={peak.id} src={peak.image} alt={peak.name} className="table-image"/></td>
-                <td>{peak.name}</td>
-                <td>{peak.elevation.toString().slice(0,2) + ',' + peak.elevation.toString().slice(2,5) + "'"}</td>
-                <td>{peak.class}</td>
-                <td>{peak.range}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        
-      </div>
-      {/* <div>
-        <img src={image} alt='ram' className='home-column' />
-      </div> */}
-      {/* <div>
-        <img src={image2} alt='ram' className='home-column-2'/>
-      </div> */}
+        <div id='main-image-container'>
+          <img src='https://www.mountainphotography.com/images/xl/20100921-Capitol-Peak-Alpenglow.jpg' alt='jack' id='main-image'/>
+          <div id='hover-text-container'>
+            <Link to="/peaklist" style={{ textDecoration: 'none' }}><p id='hover-text'>Click Here To Get Started</p></Link>
+          </div>
+        </div>
     </section>
   )
 }

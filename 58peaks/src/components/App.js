@@ -31,7 +31,7 @@ function App() {
     .then(data => { 
       setAllPeaks(data)
       setSortMtn(data)
-      setRandomPeaks(randomPeaks => [...data].sort(() => Math.random() - Math.random()).splice(0, 10))
+      setRandomPeaks(randomPeaks => [...data].sort(() => Math.random() - Math.random()).splice(0, 6))
     })
   }, [])
 
