@@ -69,8 +69,17 @@ function Planning({allPeaks}) {
 
 	return (
 		<section id="planning-container">
-		<div>
-			{weather}
+			<div id="packing-container">
+				<div id='packing-form-and-list'>
+				<PlanningForm
+					formData={formData}
+					setFormData={setFormData}
+					onAddPackingItem={handleAddPackingItem}
+				/>
+				<PackingList packingList={packingList} />
+				</div>
+				
+			</div>
 			<div id="plan-hike-split">
 				<div className="mountain-select">
 					<form id="mountain-form" onSubmit={(e) => handleSelectedMountain(e, e.target.querySelector('input').value)}>
@@ -81,22 +90,16 @@ function Planning({allPeaks}) {
 								<option value={peak.name} id={peak.id}>{peak.name}</option>
 							))}
 						</datalist>
-						<input class="submitButton" type="submit" name="SUBMITBUTTON" value="Submit" />
+						<input class="submitButton" type="submit" name="SUBMITBUTTON" value="Submit" className="planning-button" />
 					</form>
 				</div>
 			</div>
-			<div id='packing-form-and-list'>
-			<PlanningForm
-				formData={formData}
-				setFormData={setFormData}
-				onAddPackingItem={handleAddPackingItem}
-			/>
-			<PackingList packingList={packingList} />
-			</div>
-			<div className="weather" id="campsites">
-				<h1>{`Campsites near ${selectedMountain.name}`}</h1>
-				<ul>{campgrounds}</ul>
-			</div>
+			<div id="current-mtn-container">
+				{weather}
+				<div className="weather" id="campsites">
+						<h1>{`Campsites near ${selectedMountain.name}`}</h1>
+						<ul>{campgrounds}</ul>
+				</div>
 		</div>
 		</section>
 	);

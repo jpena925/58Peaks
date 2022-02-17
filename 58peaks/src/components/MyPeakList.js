@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Map from './Map'
 import MyPeak from './MyPeak'
+import instaPic from '../data/5a4e42e52da5ad73df7efe79.png'
 
 function MyPeakList() {
 const [myPeaks, setMyPeaks] = useState([])
@@ -43,7 +44,7 @@ useEffect(() => {
         <div id='instagram'>
             <div>
                 <a href='https://www.instagram.com/58peaks/?hl=en' target="_blank">
-                <img id='insta-icon' src='https://lh3.googleusercontent.com/pw/AM-JKLXZ9hkdutRd0MF-BvNqaITa5QorTZuGSyUtaILIJIReqEKiwQS9rRKP9VofSvUHe1ULobP74_wjvFTZ_WmfH2-pOebUeiTh2yDG7b_8Wt5pqDdF2OcgfDSgmMvNydytL8Pvhkiv1Q3C5RqZZI5IX1zg=s96-no?authuser=0' alt='icon' />
+                <img id='insta-icon' src={instaPic} alt='icon' />
                 </a>
                 <p id='insta-text'>Follow 58Peaks on Instagram!</p>
             </div>

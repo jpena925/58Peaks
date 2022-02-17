@@ -274,6 +274,8 @@ label {
     transform: translateY(-0.25em);
     color: #fff;
 }
+
+
 /*Planning*/
 .campsite-link {
     padding-right: 10px;
@@ -290,23 +292,60 @@ label {
 #map-google {
     background-color: rgba(255,255,255,0.3);
     margin: auto;
-    margin-top: 80px;
+    margin-top: 150px;
+    position: relative;
+}
+
+#map-google:after {
+    content:'';
+    width:65%;
+    height:2px;
+    background:#606352;
+    position:absolute;
+    top:-40px;
+    right: -100px;
+
+}
+
+
+#map-google:before {
+    content:'';
+    width:2px;
+    height:65%;
+    background:#606352;
+    position:absolute;
+    top:-85px;
+    right: -50px;
+}
+
+
+.plan-hike-split {
     
 }
 
-.plan-hike-split {
+#current-mtn-container{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#packing-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#planning-container {
     display: flex;
     flex-direction: row;
     margin: auto;
     max-width: 1500px;
     position: relative;
     padding-top: 100px;
-}
-
-#planning-container {
-    margin: auto;
-    max-width: 1500px;
-    padding-top: 50px;
+    padding-bottom: 700px;
 }
 
 .mountain-select{
@@ -319,13 +358,36 @@ label {
     height: 280px;
     background-color: rgba(255,255,255,0.3);
     padding: 0px 20px 20px 20px;
-    margin: 10px 45px 10px 45px;
+    margin: 0px 45px 10px 45px;
     overflow-y: auto;
     overflow-x: hidden;
     font-size: 1.5rem;
     float: right;
     margin-right: 10%;
+}
 
+#packing-form-and-list {
+    margin-top: -30px;
+}
+
+button, .planning-button {
+    border: 1.5px solid #e4f0f5;
+    background-color: rgba(255,255,255,0.3);
+    padding: px 5px
+}
+
+.planning-button:hover {
+    border: 1.5px solid #edf683;
+    box-shadow: 0 0.5em 0.5em -0.4em #edf683;
+    transform: translateY(-0.25em);
+    color: #fff;
+}
+
+button:hover {
+    border: 1.5px solid #edf683;
+    box-shadow: 0 0.5em 0.5em -0.4em #edf683;
+    transform: translateY(-0.25em);
+    color: #fff;
 }
 
 #campsites {
@@ -347,7 +409,7 @@ label {
 #formtitle {
     display: flex;
     font-size: 25px;
-    padding: 10px
+    padding: -0px 10px 10px 10px;
 }
 
 #packing-input{
@@ -391,6 +453,7 @@ label {
 #my-peaks-container {
     max-width: 1500px;
     margin: auto;
+    padding-top: 30px;
 }
 
 .my-peaks {
